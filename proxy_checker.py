@@ -2,8 +2,8 @@ import requests
 import concurrent.futures
 import time
 
-PROXY_FILE = "C:\\Users\\lesek\\OneDrive\\Bureau\\py\\kagami_tools\\checker_proxies\\config_proxies.txt"
-VALID_PROXY_FILE = "C:\\Users\\lesek\\OneDrive\\Bureau\\py\\kagami_tools\\checker_proxies\\valid_proxies_tahlesfou.txt"
+PROXY_FILE = "PROXY_FILE"
+VALID_PROXY_FILE = "VALID_PROXY_FILE"
 
 def read_prox(file):
     try:
